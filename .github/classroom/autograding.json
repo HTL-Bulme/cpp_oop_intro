@@ -1,5 +1,5 @@
 {
-  "tests": [
+  "__deactivated_tests": [
     {
       "name": "cppcheck",
       "setup": "sudo apt install --assume-yes cppcheck",
@@ -7,5 +7,22 @@
       "timeout": 1,
       "points": 1
     }
-  ]
+  ],
+  "tests": [
+    {
+      "name": "test_account",
+      "setup": "mkdir -p build && cd build; cmake ..; make -j4",
+      "run": "build/test_account",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "run_main",
+      "setup": "make",
+      "run": "./bank",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }  ]
 }
