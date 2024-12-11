@@ -7,7 +7,7 @@ code is correct.
 mkdir build && cd build
 cmake ..
 make -j4
-./test_account
+./account_test
 ```
 
 ## Bank Account
