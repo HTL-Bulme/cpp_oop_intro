@@ -1,5 +1,5 @@
 # everything inside the build directory
-^build/
+build/
 
 # backup files
 *~
