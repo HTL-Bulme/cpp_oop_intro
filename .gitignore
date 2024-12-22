@@ -1,6 +1,9 @@
 # everything inside the build directory
 build/
 
+# main executable
+bank
+
 # backup files
 *~
 
