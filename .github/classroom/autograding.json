@@ -10,9 +10,9 @@
   ],
   "tests": [
     {
-      "name": "test_account",
+      "name": "account_test",
       "setup": "mkdir -p build && cd build; cmake ..; make -j4",
-      "run": "build/test_account",
+      "run": "build/account_test",
       "comparison": "included",
       "timeout": 10,
       "points": 4
