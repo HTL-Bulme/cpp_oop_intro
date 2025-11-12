@@ -1,3 +1,6 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![de-at](https://img.shields.io/badge/lang-de--at-green.svg)](README.de-at.md)
+
 # Introduction to OOP
 
 After finishing the below tasks, run the following commands to see if your
