@@ -39,6 +39,9 @@ Darin ist die `Account` Klasse wie folgt zu verwenden:
 * Führen Sie mehrere Ein- und Auszahlungen durch.
 * Zeigen Sie den Endsaldo an.
 
+Erstelle ein `Makefile`, dass das Projekt kompiliert. Die dadurch erstellte
+Executable muss `bank` heissen.
+
 Das Bankkonto muss die Spezifikation im unten stehenden Klassendiagramm
 erfüllen.
 
