@@ -28,7 +28,21 @@ be called `bank`.
 
 The bank account must follow the specification in the class diagram below.
 
- ![UML diagram showing Account class](images/account.svg)
+```mermaid
+classDiagram
+class Account {
+  - balance_ int64_t
+  - owner_ string
+  - number uint64_t
+  + Account(string owner, uint64_t id)
+  + Account(string owner, uint64_t id, uint64_t deposit)
+  + deposit(uint64_t amount)
+  + withdraw(uint64_t amount) uint64_t
+  + balance() int64_t
+  + number() uint64_t
+  + owner() string
+}
+```
 
 The first three lines in the diagram are data members. The minus in front
 of them indicates that they are private members. The remaining entries are
