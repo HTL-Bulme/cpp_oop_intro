@@ -3,8 +3,16 @@
 
 # Introduction to OOP
 
-After finishing the below tasks, run the following commands to see if your
-code is correct.
+After finishing the below tasks, run the following commands to see if your code is correct.
+
+```
+mkdir build && cd build
+cmake ..
+make -j4
+make test
+```
+
+Alternatively to `make test`, the individual `*_test` programs can be run directly.
 
 ```
 mkdir build && cd build
