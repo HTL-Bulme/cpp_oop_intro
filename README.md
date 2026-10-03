@@ -3,8 +3,16 @@
 
 # Introduction to OOP
 
-After finishing the below tasks, run the following commands to see if your
-code is correct.
+After finishing the below tasks, run the following commands to see if your code is correct.
+
+```
+mkdir build && cd build
+cmake ..
+make -j4
+make test
+```
+
+Alternatively to `make test`, the individual `*_test` programs can be run directly.
 
 ```
 mkdir build && cd build
@@ -33,7 +41,7 @@ classDiagram
 class Account {
   - balance_ int64_t
   - owner_ string
-  - number uint64_t
+  - number_ uint64_t
   + Account(string owner, uint64_t id)
   + Account(string owner, uint64_t id, uint64_t deposit)
   + deposit(uint64_t amount)
